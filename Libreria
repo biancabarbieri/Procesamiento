@@ -12,18 +12,18 @@ CREATE TABLE autor (
   nacionalidad VARCHAR(50) NOT NULL)
 );  
 
-INSERT INTO libro (titulo, genero),
+INSERT INTO libro (titulo, genero)
 VALUES
 ('Los juegos del hambre', 'Distopía'),	
 ('Percy Jackson','Fantasia'),    
 ('Normal People', 'Ficción Literaria'),    
 ('Maze Runner', 'Distopia'),    
-('Harry Potter', 'Fantasía'),
+('Harry Potter', 'Fantasía');
 
-INSERT INTO autor (nombre, nacionalidad),
+INSERT INTO autor (nombre, nacionalidad)
 VALUES 	
 ('Rick Riordan', 'Estadounidense'),	
 ('Suzanne Collins', 'Estadounidense'),	
 ('Silvina Ocampo', 'Argentina'),	
 ('Sylvia Plath', 'Estadounidense'),	
-('Alejandra Pizarnik', 'Argentina'),	
+('Alejandra Pizarnik', 'Argentina');
